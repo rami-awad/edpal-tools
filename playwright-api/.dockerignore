@@ -1,0 +1,20 @@
+# Node modules (will be reinstalled in container)
+node_modules
+
+# Git stuff
+.git
+.gitignore
+
+# Logs
+*.log
+logs/
+
+# Env files — Docker handles env with --env-file
+.env
+.env.*
+
+# Local config or cache
+.DS_Store
+*.swp
+*.bak
+npm-debug.log

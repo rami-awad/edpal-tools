@@ -1,0 +1,20 @@
+{
+  "name": "playwright-api",
+  "version": "1.0.0",
+  "description": "A small API server using Playwright to automate browser tasks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Rami Awad",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "playwright": "^1.44.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

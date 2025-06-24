@@ -1,0 +1,19 @@
+# Node dependencies
+node_modules/
+package-lock.json
+
+# Logs
+*.log
+logs/
+
+# Env files (don't commit secrets!)
+.env
+.env.*
+!.env.example  # include a safe example for reference
+
+# OS/system files
+.DS_Store
+*.swp
+
+# Build artifacts
+dist/
